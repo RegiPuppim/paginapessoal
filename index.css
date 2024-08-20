@@ -1,0 +1,99 @@
+body {
+    color: black;
+    background-image: linear-gradient(0deg, #FFDEE9 76%, #B5FFFC 100%);  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 50px;
+    margin: 30px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color: palevioletred;
+}
+header img {    
+    height: 300px;
+    width: 200px;
+    border-radius: 5%;
+    box-shadow: rgba(233, 116, 186, 0.4) -5px 5px, rgba(226, 110, 183, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;    
+}
+.center {
+    text-align: center;
+}
+h1 {
+    color: palevioletred;
+    text-align: center;
+}
+h2 {
+    padding: 10px;
+    margin: 50px;
+    margin-top: 100px;
+}
+footer img {
+    height: 60px;
+    width: 60px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    margin: 20px;
+}
+footer p {
+    margin-top: 2px;
+}
+main {
+    margin: 60px;
+}
+form {
+    width: 40%;
+    min-width: 350px;
+    background-color: #FFDEE9;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 100px auto;
+    padding: 20px;
+}
+input, textarea{
+    width: 320px;
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #FFDEE9; 
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+textarea {
+    height: 200px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    height: 30px;
+    min-width: 330px;
+    border: none;
+    border-radius: 5px;
+    background: palevioletred;
+    color: azure;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
+}
+button:active {
+    opacity: 0.6;
+}
