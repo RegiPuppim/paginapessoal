@@ -37,7 +37,7 @@ header img {
 
 main {
     margin: 50px;
-    margin-left: 150px;
+    margin-left: 200px;
     margin-right: 150px;
 }
 
@@ -48,11 +48,11 @@ h1 {
 
 h2 {
     padding: 10px;
-    margin-left: 140px;
+    margin-left: 190px;
     margin-top: 100px;
 }
 
-/*Configuração imagens ícones*/
+/*Configuração imagens rodapé*/
 footer img {
     height: 60px;
     width: 60px;
@@ -67,7 +67,7 @@ footer a {
     margin: 20px;
 }
 
-/*Configuração títulos ícones*/
+/*Configuração títulos rodapé*/
 footer p {
     margin-top: 2px;
 }
