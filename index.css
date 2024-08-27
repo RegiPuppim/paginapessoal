@@ -8,53 +8,71 @@ body {
 
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
     padding: 50px;
     margin: 30px;
 }
+
 a {
     color: black;
     text-decoration: none;
 }
+
 nav a:hover {
     color: palevioletred;
 }
+
+/*Configuração imagem de perfil*/
 header img {    
     height: 300px;
     width: 200px;
     border-radius: 5%;
     box-shadow: rgba(233, 116, 186, 0.4) -5px 5px, rgba(226, 110, 183, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;    
 }
+
 .center {
     text-align: center;
 }
+
+main {
+    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 h1 {
     color: palevioletred;
     text-align: center;
 }
+
 h2 {
     padding: 10px;
-    margin: 50px;
+    margin-left: 140px;
     margin-top: 100px;
 }
+
+/*Configuração imagens ícones*/
 footer img {
     height: 60px;
     width: 60px;
 }
+
 footer {
     display: flex;
     justify-content: center;
 }
+
 footer a {
     margin: 20px;
 }
+
+/*Configuração títulos ícones*/
 footer p {
     margin-top: 2px;
 }
-main {
-    margin: 60px;
-}
+
+/*Configuração Formulário*/
 form {
     width: 40%;
     min-width: 350px;
@@ -64,6 +82,7 @@ form {
     margin: 100px auto;
     padding: 20px;
 }
+
 input, textarea{
     width: 320px;
     display: block;
@@ -80,6 +99,7 @@ textarea {
     padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 button {
     display: block;
     margin: 20px auto;
@@ -91,12 +111,16 @@ button {
     color: azure;
     cursor: pointer;
 }
+
 button:hover {
     opacity: 0.8;
 }
+
 button:active {
     opacity: 0.6;
 }
+
+/*Configuração imagem enviada*/
 img {
     height: 500px;
     width: 500px;
