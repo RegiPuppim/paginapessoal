@@ -28,7 +28,7 @@ header img {
     height: 300px;
     width: 200px;
     border-radius: 5%;
-    box-shadow: rgba(233, 116, 186, 0.4) -5px 5px, rgba(226, 110, 183, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;    
+    box-shadow:rgb(255, 153, 204) 24px 21px 0px, rgb(164, 222, 222) -27px -26px 0px;    
 }
 
 .center {
